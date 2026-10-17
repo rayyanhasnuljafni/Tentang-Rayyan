@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diri Saya dan Hobi Saya</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(to right, #f9f9f9, #e6f7ff);
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        nav {
+            background: #3498db;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        h1, h2, h3, h4 {
+            color: #2c3e50;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        /* Biodata card with picture on the right */
+        .biodata-box {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin: 30px auto;
+            max-width: 800px;
+        }
+
+        .biodata-content {
+            flex: 1;
+            text-align: left;
+        }
+        .biodata-content p {
+            margin: 6px 0;
+            font-size: 16px;
+        }
+
+        .profile-pic {
+            width: 250px;   /* medium size */
+            height: 250px;
+            object-fit: cover;
+            border-radius: 70%; /* circular */
+            margin-left: 180px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        table {
+            width: 100%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#biodata">Biodata</a>
+        <a href="#jadual">Jadual Harian</a>
+        <a href="#hobi">Hobi</a>
+    </nav>
+
+    <h1>Tentang Saya</h1>
+    <p style="text-align:center;">Projek ASK Tingkatan 1 2026 | Kreatif - Inovatif – Digital</p>
+
+    <!-- Biodata Section -->
+    <section id="biodata" class="biodata-box">
+        <!-- Text on the left -->
+        <div class="biodata-content">
+            <h2>Biodata Diri</h2>
+            <p><b>Nama:</b> Rayyan Bin Hasnul Jafni</p>
+            <p><b>Umur:</b> 13 Tahun</p>
+            <p><b>Anak:</b> Tunggal</p>
+            <p><b>Sekolah:</b> MRSM Kuala Kubu Bharu</p>
+            <p><b>Kelas:</b> 1 Efektif</p>
+            <p><b>Homeroom:</b> 1 Sapphire B</p>
+            <p><b>Batch:</b> Magnus</p>
+            <p><b>Subjek Kegemaran:</b> Sejarah</p>
+            <p><b>Guru Kegemaran:</b> Cikgu Suriani</p>
+        </div>
+
+        <!-- Picture on the right -->
+        <img src="rayyan-profile.jpg" alt="Gambar Profil Rayyan" class="profile-pic">
+    </section>
+
+    <!-- Jadual Harian Section -->
+    <section id="jadual">
+        <h2>Jadual Harian Saya di Rumah</h2>
+        <table>
+            <tr>
+                <th>Masa</th>
+                <th>Aktiviti</th>
+                <th>Catatan</th>
+            </tr>
+            <tr>
+                <td>6:30 AM - 7:00 AM</td>
+                <td>Persiapan Diri</td>
+                <td>Mandi dan sarapan pagi</td>
+            </tr>
+            <tr>
+                <td>7:30 AM - 1:00 PM</td>
+                <td>Sesi Persekolahan</td>
+                <td>Fokus dalam kelas (Subjek ASK)</td>
+            </tr>
+            <tr>
+                <td>2:30 PM - 4:30 PM</td>
+                <td>Ulang Kaji & Kerja Rumah</td>
+                <td>Siapkan tugasan sekolah</td>
+            </tr>
+            <tr>
+                <td>5:00 PM - 6:30 PM</td>
+                <td>Riadah / Sukan</td>
+                <td>Bermain bola sepak / jogging</td>
+            </tr>
+            <tr>
+                <td>9:00 PM - 10:30 PM</td>
+                <td>Masa Keluarga & Rehat</td>
+                <td>Sedia untuk tidur</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Hobi Section -->
+    <section id="hobi">
+        <h2>Hobi Saya</h2>
+        <p><b>Menonton Anime:</b> Saya gemar menonton anime kerana ia sebagai cara saya belajar sesuatu yang baharu serta menenangkan diri. Hal ini demikian kerana anime dapat mengajar kita cara menangani sesuatu. Contohnya, anime yang bertajuk ‘ BLACK CLOVER ‘ mengajar saya untuk tidak berputus asa walaupun semua orang mengatakan sedemikian. </p> 
+
+        <img src="https://media.suara.com/pictures/970x544/2023/12/04/19697-poster-anime-black-clover-netflix.jpg" alt="Anime Black Clover">
+
+        <p><b>Mengumpul Alat Tulis Berwarna:</b> Saya berasa tenang dan teruja apabila mendapat alat tulis berwarna yang baharu. Hal ini kerana ia adalah tabiat diri untuk membeli alat tulis. Saya juga dapat menggunakan semua peralatan saya dalam menghasilkan nota dan kerja sampingan. Contohnya, saya menggunakan pen marker arklik saya untuk membuat tugasan seni yang diberikan. Alat tulis juga dapat menjana kepada dekorasi bilik yang amat estetik. </p> 
+       
+	 <img src="https://media.timeout.com/images/106076425/1372/772/image.jpg" alt="Kedai Alat Tulis Terbesar di Dunia">
+
+      
+        <p style="text-align:center;">
+            <a href="https://livejapan.com/en/in-tokyo/in-pref-tokyo/in-ginza/article-a0001536/" target="_blank">Klik di sini untuk info lanjut tentang impian saya berkaitan hobi saya</a>
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Rayyan | Projek ASK Tingkatan 1</p>
+    </footer>
+
+</body>
+</html>
